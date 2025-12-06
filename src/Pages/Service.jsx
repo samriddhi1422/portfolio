@@ -45,7 +45,7 @@ function Service() {
     <div class="card brand-identity">
       <div class="icon"><TbWriting size={35}/></div>
       <h2>Blog Writing</h2>
-      <p>I craft compelling, SEO-optimized blog posts that drive traffic and engage your audience — written straight from the heart..</p>
+      <p>I craft compelling, SEO-optimized blog posts that drive traffic and engage your audience — written straight from the heart.</p>
       <div class="features">
         <div>blogs on self love, Productivity & Growth</div>
         <div>Audience-Centric Content</div>

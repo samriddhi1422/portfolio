@@ -5,9 +5,19 @@ import healthcare from '../assets/healthcare.png'
 import visa from '../assets/Visa.png'
 import acceptance from '../assets/acceptance.webp'
 import selflove from '../assets/self.webp'
+import bookease from '../assets/bookease.png'
 export const Project =[
     {
-        id:1,
+  id: 1,
+  title: "BookEase",
+  category: "Full Stack",
+  description: "A MERN stack appointment booking and management system with secure authentication, admin dashboard, and real-time scheduling for patients and doctors.",
+  image: bookease,
+  link: "https://bookease-4qvi.onrender.com/"
+}
+,
+    {
+        id:2,
         title:'ECommerce Product Listing App',
         TechStack:'React.js, Redux Toolkit, CSS',
         category: 'dev',
@@ -17,7 +27,7 @@ export const Project =[
 
     },
     {
-        id:2,
+        id:3,
         title:'Budget Tracker App',
         TechStack : 'React.js, Redux Toolkit, Chart.js, jsPDF',
         category: 'dev',
@@ -27,7 +37,7 @@ export const Project =[
 
     },
     {
-        id:3,
+        id:4,
         title:'Portfolio',
         category: 'dev',
         description :'Designed and developed my personal portfolio to showcase my projects, skills, and journey. Built with clean UI, responsive design, and smooth user experience to reflect my capabilities as a frontend developer.',
@@ -36,7 +46,7 @@ export const Project =[
 
     },
     {
-        id:4,
+        id:5,
         title:'Healing Through Self Love',
         category: 'Blog',
         description :'Wrote a personal blog on self-love and healing — shared how self-compassion, boundaries, and daily affirmations helped me grow through grief. Aimed to inspire others to choose self-love during tough times.',
@@ -44,7 +54,7 @@ export const Project =[
         link:'https://medium.com/@samriddhi1422/healing-through-self-love-your-greatest-strength-in-tough-times-c22c54891557'
     },
     {
-        id:5,
+        id:6,
         title:'The Power Of Acceptance',
         category: 'Blog',
         description :'A reflective blog on how embracing reality — instead of resisting it — can bring peace, clarity, and growth. Written after personal loss, this piece explores how acceptance transforms pain into purpose.The blog encourages you to stop asking “Why me?” and start asking “What can I learn from this?”',
@@ -53,12 +63,21 @@ export const Project =[
 
     },
     {
-        id:6,
+        id:7,
         title:'Healthcare site',
         category: 'UI',
         description :'Designed a modern and intuitive UI for a healthcare startup focused on improving patient experience. The design prioritizes clarity, trust, and ease of use, aligning with the startup’s mission to make healthcare more accessible and user-friendly.',
         image:healthcare,
         link:'https://www.figma.com/proto/UIT8ySSR6cuFmZ5sPPWHZN/HealthyCarely--Community-?node-id=962-793'
+
+    },
+    {
+        id:8,
+        title:'Visa Company Site',
+        category: 'UI',
+        description :'Redesigned the website UI for a visa services company aiming to modernize their online presence. Focused on improving user experience, trust, and clarity to help users navigate services and application processes with ease.',
+        image:visa,
+        link:'https://www.figma.com/design/aLsZ8PgzORGldPJgqR09dw/Study-Gen-International?node-id=0-1&p=f&t=xVAghRjJzjZrqsPh-0'
 
     },
     {
