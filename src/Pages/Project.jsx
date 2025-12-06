@@ -10,10 +10,11 @@ export const Project =[
     {
   id: 1,
   title: "BookEase",
-  category: "Full Stack",
+   TechStack:'React , Express , Node , MongoDB',
+  category: "dev",
   description: "A MERN stack appointment booking and management system with secure authentication, admin dashboard, and real-time scheduling for patients and doctors.",
   image: bookease,
-  link: "https://bookease-4qvi.onrender.com/"
+  link: 'https://bookease-4qvi.onrender.com/'
 }
 ,
     {
