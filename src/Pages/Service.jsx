@@ -5,58 +5,82 @@ import { SiBlackmagicdesign } from "react-icons/si";
 import { FaConnectdevelop } from "react-icons/fa6";
 import { TbWriting } from "react-icons/tb";
 import { NavLink } from 'react-router-dom';
+
 function Service() {
   return (
     <div className='service'>
       <div className='txt-serv'>
-         <div className='hello'>
-    <span className='dot'></span>
-    What I Offer</div>
-      <div className='serv-txt'>SERVICES</div>
+        <div className='hello'>
+          <span className='dot'></span>
+          What I Offer
+        </div>
+        <div className='serv-txt'>SERVICES</div>
       </div>
-     
-   <div class="container">
-    
-    <div class="card web-design">
-      <div class="icon"><SiBlackmagicdesign size={35}/></div>
-      <h2>Web Design</h2>
-      <p>Creating visually stunning and user-friendly websites isn’t just what I do — it’s what I love.</p>
-      <div class="features">
-        <div>Custom Tailored Design</div>
-        <div>Responsive Layouts</div>
-        <div>Prototype & Wireframing</div>
-      </div>
-       <NavLink to="/projects"><button class="button"><BsArrowReturnRight size={20}/> Check Projects</button></NavLink>
-    </div>
 
-    <div class="card development">
-      <div class="icon"><FaConnectdevelop size={35}/></div>
-      <h2>Development</h2>
-      <p>I bring your designs to life with clean, efficient, and high-performing code. Creating websites is more than a skill—it's something truly close to my heart.</p>
-      <div class="features">
-        <div>ReactJs & CSS Expertise</div>
-        <div>Cross-Browser Compatibility</div>
-        <div>Faster Load Times</div>
-      </div>
-      <NavLink to="/projects"><button class="button"><BsArrowReturnRight size={20}/> Check Projects</button></NavLink>
-      
-    </div>
+      <div className="container">
 
-    <div class="card brand-identity">
-      <div class="icon"><TbWriting size={35}/></div>
-      <h2>Blog Writing</h2>
-      <p>I craft compelling, SEO-optimized blog posts that drive traffic and engage your audience — written straight from the heart.</p>
-      <div class="features">
-        <div>blogs on self love, Productivity & Growth</div>
-        <div>Audience-Centric Content</div>
-        <div>Storytelling That Converts</div>
+        {/* UI / PRODUCT DESIGN */}
+        <div className="card web-design">
+          <div className="icon"><SiBlackmagicdesign size={35}/></div>
+          <h2>Product & UI Design</h2>
+          <p>
+            I design clean, intuitive, and conversion-focused interfaces for modern web apps and SaaS products.
+            Every design is built with users, scalability, and real-world usage in mind.
+          </p>
+          <div className="features">
+            <div>Modern UI/UX for SaaS & Web Apps</div>
+            <div>Responsive & Mobile-First Design</div>
+            <div>Wireframing & Rapid Prototyping</div>
+          </div>
+          <NavLink to="/projects">
+            <button className="button">
+              <BsArrowReturnRight size={20}/> View Projects
+            </button>
+          </NavLink>
+        </div>
+
+        {/* FULL STACK / SAAS DEVELOPMENT */}
+        <div className="card development">
+          <div className="icon"><FaConnectdevelop size={35}/></div>
+          <h2>Full Stack & SaaS Development</h2>
+          <p>
+            I build end-to-end web applications — from idea to deployment. 
+            Specializing in MERN stack and AI-powered tools, I create scalable, production-ready SaaS products.
+          </p>
+          <div className="features">
+            <div>MERN Stack (React, Node, MongoDB)</div>
+            <div>REST APIs & Authentication Systems</div>
+            <div>AI Integrations & Smart Features</div>
+          </div>
+          <NavLink to="/projects">
+            <button className="button">
+              <BsArrowReturnRight size={20}/> View Projects
+            </button>
+          </NavLink>
+        </div>
+
+        {/* CONTENT / TECH WRITING */}
+        <div className="card brand-identity">
+          <div className="icon"><TbWriting size={35}/></div>
+          <h2>Content & Technical Writing</h2>
+          <p>
+            I write impactful content on technology, personal growth, and real-world experiences — blending storytelling with clarity to engage and inform.
+          </p>
+          <div className="features">
+            <div>Tech Blogs & Developer Content</div>
+            <div>Personal Growth & Storytelling</div>
+            <div>SEO-Friendly Writing</div>
+          </div>
+          <a href='https://medium.com/@samriddhi1422' target='_blank' rel="noreferrer">
+            <button className="button">
+              <BsArrowReturnRight size={20}/> Read Blogs
+            </button>
+          </a>
+        </div>
+
       </div>
-      <a href='https://medium.com/@samriddhi1422' target='_blank'><button class="button"><BsArrowReturnRight size={20}/>Read Blogs</button></a>
-      
     </div>
-  </div>
-  </div>
   )
 }
 
-export default Service
+export default Service;

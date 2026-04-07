@@ -85,6 +85,7 @@ img{
 
 .exp{
      padding: 0px 80px 40px  80px;
+    
 }
 .exp-txt {
    font-size: 5rem;
@@ -93,6 +94,7 @@ img{
     letter-spacing: -4px;
     
 }
+
 .exp-detail{
   background-color: #ffffff;
     
@@ -102,6 +104,7 @@ img{
     border-left:2px solid black ;
     font-size: 15px;
     line-height: 1.5rem;
+    margin-top: 10px;
       
 
 }

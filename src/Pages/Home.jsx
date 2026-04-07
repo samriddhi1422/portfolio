@@ -1,9 +1,11 @@
 import React from 'react'
 import '../Styles/Home.css'
 import frame from '../assets/Frame (1).png'
+import { useNavigate } from "react-router-dom";
 
 import { BsArrowReturnRight } from "react-icons/bs";
 function Home() {
+  const navigate = useNavigate();
   return (
   <div className='home'>
     <div className='home1'>
@@ -17,11 +19,16 @@ function Home() {
     <div className='show-para'>Hello! I’m Samriddhi, a passionate Frontend Developer and UI/UX Designer <br></br> dedicated to crafting seamless digital experiences and writing about life on Medium.</div>
     <div className='block-para'>Hello! I’m Samriddhi, a passionate Frontend Developer and UI/UX Designer  dedicated to crafting seamless digital experiences and writing about life on Medium.</div>
     <div className='home-btn'>
-      <a href='/Samriddhi-Shrivastava-GoogleDocs.pdf'download>
-      <button><BsArrowReturnRight size={20}/> Download CV</button>
+<a 
+  href="https://drive.google.com/file/d/1Fifyy2QktWPPPnOwl2t9rl-xbMAbC3-w/view?usp=sharing" 
+  target="_blank" 
+  rel="noreferrer"
+>      <button><BsArrowReturnRight size={20}/> Download CV</button>
       </a>
-      <a href='https://medium.com/@samriddhi1422' target='_blank'>  <button> <BsArrowReturnRight size={20} />Read Blogs</button></a>
-   </div>
+
+<button onClick={() => navigate("/projects")}>
+ <BsArrowReturnRight size={20}/> Go to Projects
+</button>   </div>
     
    </div>
    </div>
