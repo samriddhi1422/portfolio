@@ -16,8 +16,8 @@ function Home() {
    <div className='image'> <img src={frame}></img>  </div>
    </div>
    <div className='para'>
-    <div className='show-para'>Hello! I’m Samriddhi, a passionate Frontend Developer and UI/UX Designer <br></br> dedicated to crafting seamless digital experiences and writing about life on Medium.</div>
-    <div className='block-para'>Hello! I’m Samriddhi, a passionate Frontend Developer and UI/UX Designer  dedicated to crafting seamless digital experiences and writing about life on Medium.</div>
+    <div className='show-para'>Hello! I’m Samriddhi, a passionate Full-Stack Developer and Content Creator <br></br> dedicated to crafting seamless digital experiences and writing about life on Medium.</div>
+    <div className='block-para'>Hello! I’m Samriddhi, a passionate Full-Stack Developer and Content Creator dedicated to crafting seamless digital experiences and writing about life on Medium.</div>
     <div className='home-btn'>
 <a 
   href="https://drive.google.com/file/d/1Fifyy2QktWPPPnOwl2t9rl-xbMAbC3-w/view?usp=sharing" 
