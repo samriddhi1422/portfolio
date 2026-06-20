@@ -7,16 +7,17 @@ import acceptance from '../assets/acceptance.webp'
 import selflove from '../assets/self.webp'
 import bookease from '../assets/bookease.png'
 import jalmitra from '../assets/Jalmitra.png'
+import resumebullet from '../assets/resumebullet.png'
 export const Project =[
-      {
-      id: 1,
-      title: "JalMitra",
-      TechStack: "React (Vite), Node.js, MongoDB, AI Integration",
-      category: "dev",
-      description: "An AI-powered rainwater harvesting analysis tool that calculates how much water a household can save based on location, roof area, and usage. Provides feasibility reports, ROI and payback insights, monthly harvest breakdowns, and an interactive chatbot for what-if scenarios.",
-      image: jalmitra,
-      link: "https://jalmitra-phi.vercel.app/"
-    },
+  {
+  id: 1,
+  title: "JalMitra",
+  TechStack: "React (Vite), Node.js, MongoDB, AI Integration",
+  category: "dev",
+  description: "An AI-powered rainwater harvesting analysis tool that calculates how much water a household can save based on location, roof area, and usage. Provides feasibility reports, ROI and payback insights, monthly harvest breakdowns, and an interactive chatbot for what-if scenarios.",
+  image: jalmitra,
+  link: "https://jalmitra-phi.vercel.app/"
+},
     {
   id: 2,
   title: "BookEase",
