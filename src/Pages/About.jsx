@@ -70,7 +70,7 @@ function About() {
 
     {/* Current Experience */}
     <div className='exp-detail'>
-      <h4>Software Development Engineer Intern — Full Stack — EasyWash, India | Jan 2026 – April 2026</h4>
+      <h4>Software Development Engineer Intern — Full Stack — EasyWash, India | March 2025 – April 2026</h4>
       <ul>
         <li>Designed and developed scalable full-stack features using the MERN stack (MongoDB, Express.js, React.js, Node.js) for a production-grade application.</li>
         <li>Collaborated with stakeholders to understand user requirements and translated them into reliable, maintainable solutions following clean code principles.</li>
